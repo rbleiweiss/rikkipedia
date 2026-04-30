@@ -1,0 +1,20 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+@use '../utils/functions' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');// Font Mixins
+
+@mixin inter($weight: 400, $isItalic: false) {
+  font-family: $primary-font;
+  font-weight: $weight;
+
+  @if $isItalic==true {
+    font-style: italic;
+  }
+}
+
+// Patua One
+@mixin ubuntu($weight: 800) {
+  font-family: $header-font;
+  font-weight: $weight;
+}

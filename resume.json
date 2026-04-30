@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Rikki Bleiweiss",
+    "label": "Writer and Editor",
+    "image": "",
+    "email": "rikki.bleiweiss@gmail.com",
+    "phone": "713-829-1782",
+    "url": "rikkipedia.org",
+    "summary": " Rikki is a content marketing strategist who drives results across SEO, AEO/GEO, Paid, Social, PR, and CRM channels.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Los Angeles, CA",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rikki-bleiweiss",
+        "url": "https://www.linkedin.com/in/rikki-bleiweiss/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Gametime · Full-time",
+      "position": "Content Lead",
+      "startDate": "2025-10",
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": ""
+    },
+    {
+      "company": "SUCCESS Magazine",
+      "position": "SEO & CMS Specialist",
+      "startDate": "2024-06",
+      "endDate": "2025-10",
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": ""
+    },
+    {
+      "company": "Coverfly",
+      "position": "Reader",
+      "startDate": "2020-04",
+      "endDate": "2025-07",
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": ""
+    },
+    {
+      "company": "Slickdeals",
+      "position": "Writer & Editor",
+      "startDate": "2022-06",
+      "endDate": "2025-06",
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": ""
+    },
+    {
+      "company": "Level 4 Press",
+      "position": "Development Editor (Fiction)",
+      "startDate": "2022-07",
+      "endDate": "2024-06",
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "The University of Texas at Austin",
+      "studyType": "Master's degree",
+      "area": "Screenwriting",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": ""
+    },
+    {
+      "institution": "The University of Texas at Austin",
+      "studyType": "Bachelor of Science - BS",
+      "area": "Radio-Television-Film",
+      "startDate": "2015",
+      "endDate": "2019",
+      "gpa": "3.96",
+      "summary": ""
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Enterprise Design Thinking Practitioner",
+      "date": "2019-06",
+      "issuer": "IBM",
+      "url": "https://www.linkedin.com/company/1009/"
+    },
+    {
+      "name": "Avid 101",
+      "date": null,
+      "issuer": "Avid",
+      "url": "https://www.linkedin.com/company/3249/"
+    }
+  ],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [
+    {
+      "name": "Jean-Christophe Pope",
+      "reference": "Rikki joined Gametime as part of our newly formed SEO team, and she quickly made her presence felt, particularly in content marketing.\n\nOur blog had been neglected for some time before Rikki came along. She brought it back in a meaningful way, not just by filling a publishing calendar, but by being thoughtful and strategic about what to cover and why. Working together across a number of posts, it genuinely felt like we were building toward something bigger. Each piece adding another layer to our brand story. What she put into the world was only a fraction of what she had in mind. The backlog of ideas she generated consistently outpaced our bandwidth, which tells you something about the creative engine she is. And she did all of this with a warmth that made collaboration genuinely enjoyable. She was easy to work with, receptive, and is clearly passionate and curious about her work.\n\nRikki is a creative thinker with a real instinct for content that serves both audience and brand. Any business looking to build or expand their content marketing practice would be lucky to have her (and would be wise to give her the runway to run)."
+    },
+    {
+      "name": "Claire Norris",
+      "reference": "Rikki is one of the smartest and most capable people I know, and she learns at the speed of light. I have had the pleasure of working with Rikki for over two years on a sitcom for Texas Student Television’s Writing Incubator program, among various other projects. Although she started in the Radio-Television-Film major with no prior experience, I have watched her take tremendous initiative to write compelling and humorous screenplays, start the first student web series department in the country, and become one of the most proficient visual effects artists in the major. Rikki’s drive to learn and create quality content never ceases to amaze me, and she would be an irreplaceable asset to any organization. \n"
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
