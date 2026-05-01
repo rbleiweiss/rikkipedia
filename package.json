@@ -5,6 +5,7 @@
     "export": "npx vite-node --config vite.config.js generate.js"
   },
   "dependencies": {
+    "@vue/cli-service": "^5.0.9",
     "jsonresume-theme-erin": "file:jsonresume-theme-erin",
     "resumed": "^6.1.0",
     "vite-plugin-static-copy": "^4.1.0"
