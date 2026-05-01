@@ -2,7 +2,7 @@
   "scripts": {
     "init": "resumed init",
     "dev": "vite",
-    "export": "NODE_ENV=production npx vite-node --config vite.config.js generate.js"
+    "export": "npx vite-node --config vite.config.js generate.js"
   },
   "dependencies": {
     "@vue/cli-service": "^5.0.9",

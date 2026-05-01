@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install
-      - run: npx vite-node --config vite.config.js generate.js
+      - run: NODE_ENV=production npx vite-node --config vite.config.js generate.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
