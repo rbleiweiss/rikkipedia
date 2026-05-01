@@ -2,7 +2,7 @@
   <div class="infobox">
     <div class="header">{{resume.basics.name}}</div>
     <div class="content">
-      <img :src="`${url()}static/headshot.png`"/>
+      <img src="./static/headshot.png"/>
       <div class="about-container">
         <table class="about-table">
           <tr v-if="resume.basics.location">
@@ -36,10 +36,6 @@ import Title from "../partials/Title.vue";
 import addressFormat from 'address-format';
 
 const props = defineProps(['resume'])
-
-const url = function(){
-  return window.location.href
-}
 const formatAddress = function(location) {
   let addressList = addressFormat({
     address: location.address,
