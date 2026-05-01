@@ -2,7 +2,9 @@
   <div id="resume" class="container">
     <div class="resume-content">
       <div class="left-column">
-        <img class="logo" src="/static/rikkipedia.png"/>
+        <a href="/">
+          <img class="logo" :src="`${url()}static/rikkipedia.png`"/>
+        </a>
         <Contents :resume="resume"/>
       </div>
       <div class="right-column">
@@ -38,6 +40,11 @@ import Certificates from "./components/Certificates.vue";
 import Infobox from "./components/Infobox.vue";
 import Contents from "./components/Contents.vue";
 const props = defineProps(['resume'])
+
+const url = function(){
+  return window.location.href
+}
+
 </script>
 
 <style lang="scss">
