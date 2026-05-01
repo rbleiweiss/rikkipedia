@@ -6,14 +6,14 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
     plugins: [
         vue(),
-        viteStaticCopy({
-            targets: [
-                {
-                    src: './static',
-                    dest: './public/static'
-                }
-            ]
-        })
+        // viteStaticCopy({
+        //     targets: [
+        //         {
+        //             src: './static',
+        //             dest: './jsonresume-theme-rikkipedia/static'
+        //         }
+        //     ]
+        // })
     ],
     ssr: {
         // This ensures Vue isn't treated as an external CJS module

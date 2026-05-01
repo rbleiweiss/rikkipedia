@@ -3,7 +3,7 @@
     <div class="resume-content">
       <div class="left-column">
         <a href="/">
-          <img class="logo" :src="`/static/rikkipedia.png`"/>
+          <img class="logo" :src="url('rikkipedia.png')"/>
         </a>
         <Contents :resume="resume"/>
       </div>
@@ -40,6 +40,16 @@ import Certificates from "./components/Certificates.vue";
 import Infobox from "./components/Infobox.vue";
 import Contents from "./components/Contents.vue";
 const props = defineProps(['resume'])
+
+const url = function(filename){
+  if (process.env.NODE_ENV === 'production') {
+    // Production: Use your external CDN or specific sub-path
+    return `/rikkipedia/static/${filename}`
+  } else {
+    // Development: Use the standard local path
+    return `/static/${filename}`
+  }
+}
 
 </script>
 

@@ -2,7 +2,7 @@
   <div class="infobox">
     <div class="header">{{resume.basics.name}}</div>
     <div class="content">
-      <img src="/static/headshot.png"/>
+      <img :src="url('headshot.png')"/>
       <div class="about-container">
         <table class="about-table">
           <tr v-if="resume.basics.location">
@@ -36,6 +36,16 @@ import Title from "../partials/Title.vue";
 import addressFormat from 'address-format';
 
 const props = defineProps(['resume'])
+
+const url = function(filename){
+  if (process.env.NODE_ENV === 'production') {
+    // Production: Use your external CDN or specific sub-path
+    return `/rikkipedia/static/${filename}`
+  } else {
+    // Development: Use the standard local path
+    return `/static/${filename}`
+  }
+}
 const formatAddress = function(location) {
   let addressList = addressFormat({
     address: location.address,
