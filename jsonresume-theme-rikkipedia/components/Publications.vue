@@ -1,5 +1,5 @@
 <template>
-  <div v-if="resume.publications && resume.publications.length > 0" class="publications">
+  <div id="publications" v-if="resume.publications && resume.publications.length > 0" class="publications">
     <Title value="Publications"/>
 
     <section v-for="publication of resume.publications" class="item">

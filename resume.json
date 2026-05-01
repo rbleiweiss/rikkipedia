@@ -7,7 +7,7 @@
     "email": "rikki.bleiweiss@gmail.com",
     "phone": "713-829-1782",
     "url": "rikkipedia.org",
-    "summary": " Rikki is a content marketing strategist who drives results across SEO, AEO/GEO, Paid, Social, PR, and CRM channels.",
+    "summary": "*From Rikkipedia, your top source for Rikki answers* \n\n Rikki Bleiweiss is a writer, editor, filmmaker, and visual effects artist looking to combine her skills in to a content design career.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -78,15 +78,22 @@
   "education": [
     {
       "institution": "The University of Texas at Austin",
-      "studyType": "Master's degree",
+      "studyType": "M.F.A.",
       "area": "Screenwriting",
       "startDate": "2019",
       "endDate": "2021",
       "summary": ""
     },
     {
+      "institution": "Quantic University",
+      "studyType": "M.B.A.",
+      "area": "Business Leadership & Management",
+      "endDate": "2025",
+      "summary": ""
+    },
+    {
       "institution": "The University of Texas at Austin",
-      "studyType": "Bachelor of Science - BS",
+      "studyType": "B.S.",
       "area": "Radio-Television-Film",
       "startDate": "2015",
       "endDate": "2019",
@@ -110,7 +117,19 @@
     }
   ],
   "publications": [],
-  "skills": [],
+  "skills": [
+    "Adobe Creative Suite",
+    "Sketch",
+    "Figma",
+    "Unity",
+    "Maya Avid (101 Certified)",
+    "DaVinci Resolve",
+    "Pluralize",
+    "Webflow",
+    "Protopie",
+    "Atlassian Suite",
+    "Tableau"
+  ],
   "languages": [],
   "interests": [],
   "references": [

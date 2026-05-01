@@ -1,9 +1,10 @@
 <template>
 <div
+    id="work"
     v-if="resume.work && resume.work.length > 0"
     class="work-container"
 >
-  <Title value="Experience" />
+  <Title value="Career History" />
   <section
       v-for="work of resume.work"
       class="item"

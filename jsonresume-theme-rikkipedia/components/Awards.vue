@@ -1,5 +1,5 @@
 <template>
-  <div v-if="resume.awards && resume.awards.length > 0" class="awards-container">
+  <div id="awards" v-if="resume.awards && resume.awards.length > 0" class="awards-container">
     <Title value="Awards"/>
 
     <section v-for="award of resume.awards" class="item">

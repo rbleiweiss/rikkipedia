@@ -1,5 +1,5 @@
 <template>
-  <div v-if="resume.certificates && resume.certificates.length > 0" class="certificates-container">
+  <div id="certificates" v-if="resume.certificates && resume.certificates.length > 0" class="certificates-container">
     <Title value="Certificates"/>
 
     <section v-for="certificate of resume.certificates" class="item">

@@ -1,5 +1,6 @@
 <template>
   <div
+      id="education"
       v-if="education && education.length > 0"
       class="education-container"
   >

@@ -1,5 +1,5 @@
 <template>
-  <div class="section-header clearfix">
+  <div class="section-header">
     <h3 v-if="name" class="bold pull-left">
       <a v-if="role && role.website" :href="role.website" target="_blank">
         {{role.company}} <i class="fa fa-external-link" aria-hidden="true"></i>

@@ -1,5 +1,5 @@
 <template>
-  <div v-if="resume.references && resume.references.length > 0" class="references">
+  <div id="references" v-if="resume.references && resume.references.length > 0" class="references">
     <Title value="References"/>
 
     <section v-for="reference of resume.references" class="item clearfix">
