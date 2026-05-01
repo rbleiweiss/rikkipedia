@@ -3,7 +3,7 @@
     <div class="resume-content">
       <div class="left-column">
         <a href="/">
-          <img class="logo" src="./static/rikkipedia.png"/>
+          <img class="logo" src="/rikkipedia/static/rikkipedia.png"/>
         </a>
         <Contents :resume="resume"/>
       </div>
