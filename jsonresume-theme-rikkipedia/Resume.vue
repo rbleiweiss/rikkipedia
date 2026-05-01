@@ -25,10 +25,6 @@
 
 <script setup lang="ts">
 import Header from './components/Header.vue'
-import About from "./components/About.vue";
-import Skills from "./components/Skills.vue";
-import Languages from "./components/Languages.vue";
-import Interests from "./components/Interests.vue";
 import Summary from "./components/Summary.vue";
 import Work from "./components/Work.vue";
 import Volunteer from "./components/Volunteer.vue";
