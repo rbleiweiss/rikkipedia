@@ -145,9 +145,19 @@
   "portfolio": {
     "writing": [
       {
-        "title": "Slickdeals AAP",
+        "title": "How I Grew our Conversion Rate 460% through Microcopy",
         "description": "How I Grew our Conversion Rate 460% through Microcopy",
         "file": "slickdeals aap.pdf"
+      },
+      {
+        "title": "Achieving Position 1 on Google Through Event-Based Marketing",
+        "description": "Capturing Amazon Prime Day Sales",
+        "file": "SEOPrimeDay.pdf"
+      },
+      {
+        "title": "Scaling $2,000 Revenue to $2,000,000+",
+        "description": "How I Invented a Primary Revenue Stream",
+        "file": "2mstory_p1.pdf"
       }
     ]
   },
