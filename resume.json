@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Rikki Bleiweiss",
     "label": "Content Marketing | SEO, AEO, GEO ",
@@ -143,6 +142,15 @@
     }
   ],
   "projects": [],
+  "portfolio": {
+    "writing": [
+      {
+        "title": "Slickdeals AAP",
+        "description": "How I Grew our Conversion Rate 460% through Microcopy",
+        "file": "slickdeals aap.pdf"
+      }
+    ]
+  },
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"

@@ -1,5 +1,5 @@
 // generate.js
-import { render } from './jsonresume-theme-rikkipedia/index.js';
+import { render } from './jsonresume-theme-rikkipedia';
 import fs from 'node:fs/promises';
 
 async function build() {

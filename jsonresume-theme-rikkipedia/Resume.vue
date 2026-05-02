@@ -12,6 +12,7 @@
         <Summary :basics="resume.basics" />
         <Infobox :resume="resume"/>
         <Work :resume="resume" />
+        <Portfolio :portfolio="resume.portfolio"/>
         <Volunteer :resume="resume"/>
         <Education :education="resume.education"/>
         <Certificates :resume="resume"/>
@@ -35,6 +36,7 @@ import References from "./components/References.vue";
 import Certificates from "./components/Certificates.vue";
 import Infobox from "./components/Infobox.vue";
 import Contents from "./components/Contents.vue";
+import Portfolio from "./components/Portfolio.vue";
 const props = defineProps(['resume'])
 
 </script>
