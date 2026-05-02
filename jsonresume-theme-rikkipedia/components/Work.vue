@@ -10,18 +10,20 @@
       class="item"
       :class="work.company ? '' : 'continuation'"
   >
-    <h3 v-if="work.position" class="bold position">
-      {{work.position}}
-      <span class="company">
+    <div v-if="work.position" class="position">
+      <h3 class="bold">
+        {{work.position}}
+      </h3>
+      <div class="company">
         [<template v-if="work.url">
           <a class="company" :href="work.url" target="_blank">{{work.company}}</a>,
         </template>
         <template v-else>
-          {{work.company}}
+          {{work.company}},
         </template>
           {{dateRange(work)}}]
-      </span>
-    </h3>
+      </div>
+    </div>
 
     <vue-markdown v-if="work.summary" :source="work.summary" class="summary" :options="{ html: true }"/>
 
@@ -59,10 +61,10 @@ const dateRange = function(role) {
   }
 
   if (role.endDate) {
-    range += role.startDate ? ' - ' : ''
+    range += role.startDate ? '-' : ''
     range += moment(role.endDate).format('YYYY')
   } else if (role.startDate) {
-    range += " - Present"
+    range += "-Present"
   }
 
   if (!role.startDate && role.releaseDate) {

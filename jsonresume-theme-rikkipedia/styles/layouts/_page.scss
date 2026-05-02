@@ -145,11 +145,18 @@ blockquote {
 
 .work-container {
   margin-top: -10px;
+
   .position {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     .company {
+      @include font-size(3.5);
       font-weight: normal;
+      line-height: 1em;
     }
   }
+
 
   .item.continuation {
     margin-top: spacing(-4.5);
