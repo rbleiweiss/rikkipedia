@@ -27,6 +27,23 @@
                 <div class="item">{{getSkills(resume)}}</div>
               </td>
             </tr>
+
+            <tr v-if="resume.basics.profiles && resume.basics.profiles.length > 0" >
+              <td>Profiles</td>
+              <td>
+                <table class="profiles">
+                <Social
+                    v-for="profile in resume.basics.profiles"
+                    :profile="profile"
+                />
+                <InfoTag
+                    text="Resume (.pdf)"
+                    icon="fas fa-file-alt fa-fw"
+                    url="./static/RikkiBleiweissResume.pdf"
+                />
+                </table>
+              </td>
+            </tr>
           </table>
         </div>
       </div>
@@ -36,6 +53,8 @@
 
 <script lang="ts" setup>
 import Title from "../partials/Title.vue";
+import InfoTag from "../partials/InfoTag.vue";
+import Social from "../partials/Social.vue";
 import addressFormat from 'address-format';
 
 const props = defineProps(['resume'])

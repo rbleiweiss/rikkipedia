@@ -94,7 +94,7 @@ blockquote {
   }
   .header {
     font-family: $primary-font;
-    padding: 0.5em;
+    padding: 0.5em 0.5em 0 0.5em;
     font-size: 1em;
     font-weight: bold;
     display: flex;
@@ -128,6 +128,18 @@ blockquote {
           }
           .item {
             margin-bottom: 0.5em;
+          }
+          .profiles {
+            line-height: 1em;
+            .info-tag {
+              td {
+                padding-bottom: 0.5em;
+              }
+            }
+            i.fab {
+              width: 18px;
+              font-size: 1.25em;
+            }
           }
         }
         &:not(:last-of-type){
