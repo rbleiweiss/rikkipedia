@@ -36,13 +36,17 @@ blockquote {
   position: sticky;
   top: 20px;
   .title {
+    font-weight: bold;
     display: flow-root;
-    border-bottom: 1px solid $border-color-base;
+    border-bottom: 1px solid #EAECF0;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
+    font-size: 0.9em;
   }
   > ul {
-    padding-left: 0.25em;
+    padding-left: 0;
+    position: relative;
+    left: -9px;
   }
   ul {
     margin: 0;
@@ -76,7 +80,7 @@ blockquote {
 
 .left-column {
   word-wrap: break-word;
-  max-width: 235px;
+  max-width: 220px;
 }
 
 .right-column {
