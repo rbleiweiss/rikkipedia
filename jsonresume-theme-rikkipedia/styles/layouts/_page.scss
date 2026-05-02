@@ -83,39 +83,62 @@ blockquote {
   overflow: hidden;
 }
 
-.infobox {
+.infobox-container {
   float: right;
   width: 300px;
-  border: 1px solid #555;
-  //border-spacing: 3px;
-  margin: 25px 0 25px 25px;
+  padding-top: 0;
+  margin: 0 0 25px 25px;
+  .infobox {
+    background-color: #f8f9fa;
+    border: 1px solid #555;
+  }
   .header {
-    background-color: $theme-color;
-    height: 56px;
-    font-size: 1.2em;
+    font-family: $primary-font;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .content {
-    padding: 5px;
+    padding: 0.5em;
     img {
       max-width: 100%;
     }
+    .caption {
+      text-align: center;
+      font-size: 0.8em;
+    }
   }
-  .about-table {
-    border-spacing: 10px 4px;
-    border-collapse: separate;
-    font-size: 14px;
-    tr {
-      height: spacing(2);
-      &:not(:last-of-type){
+
+  .about-container {
+    padding-top: 1.2em;
+    .about-table {
+      border-spacing: 10px 0;
+      border-collapse: separate;
+      margin: 0 -10px;
+      font-size: 0.8em;
+      tr {
+        height: spacing(2);
         td {
-          padding-bottom: 1em;
+          &:first-child {
+            font-weight: bold;
+            vertical-align: top;
+          }
+          .item {
+            margin-bottom: 0.5em;
+          }
+        }
+        &:not(:last-of-type){
+          td {
+            padding-bottom: 1em;
+          }
         }
       }
     }
   }
+
 }
 
 .section-header {
@@ -123,7 +146,7 @@ blockquote {
   justify-content: space-between;
 }
 
-.item {
+section.item {
   margin-bottom: spacing(3);
 
   &:last-child {
