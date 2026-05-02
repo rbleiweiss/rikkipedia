@@ -146,6 +146,11 @@
   "portfolio": {
     "writing": [
       {
+        "title": "College Football 2025 Fanalytics Awards",
+        "description": "Used ticket transaction data to tell the story of the College Football season. My favorite narrative piece.",
+        "url": "https://gametime.co/blog/college-football-2025-fanalytics-awards/"
+      },
+      {
         "title": "How I Grew our Conversion Rate 460% through Microcopy",
         "description": "How I Grew our Conversion Rate 460% through Microcopy",
         "file": "slickdeals aap.pdf"
@@ -159,11 +164,6 @@
         "title": "Scaling $2,000 Revenue to $2,000,000+",
         "description": "How I Invented a Primary Revenue Stream",
         "file": "2mstory_p1.pdf"
-      },
-      {
-        "title": "College Football 2025 Fanalytics Awards",
-        "description": "I made this",
-        "url": "https://gametime.co/blog/college-football-2025-fanalytics-awards/"
       }
     ]
   },
