@@ -195,6 +195,13 @@
       ]
     }
   ],
+  "controversies": [
+    "Pronounces “GIF” like the g in graphic and not like the j in Jif peanut butter",
+    "Prefers dogs to cats",
+    "Known co-conspirator and enabler of dog’s rulebreaking",
+    "Known to overcommit to a bit (further reading: rikkipedia.org)",
+    "Prefers “y’all” to “you guys”"
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
