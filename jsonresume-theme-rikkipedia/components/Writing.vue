@@ -1,5 +1,5 @@
 <template>
-  <div v-if="writing && writing.length > 0">
+  <div id="writing" v-if="writing && writing.length > 0">
     <div v-for="item of writing">
       <a :href="`/static/${encodeURIComponent(item.file)}`" target="_blank">{{item.title}}</a>
       <vue-markdown v-if="item.description" :source="item.description" class="description" />
