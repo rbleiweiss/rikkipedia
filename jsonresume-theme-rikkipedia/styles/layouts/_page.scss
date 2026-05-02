@@ -131,7 +131,20 @@ blockquote {
   }
 }
 
+.summary-container {
+  padding-top: 0;
+  em {
+    color: $text-color;
+  }
+  .summary {
+    p:last-of-type{
+      padding-bottom: 0;
+    }
+  }
+}
+
 .work-container {
+  margin-top: -10px;
   .position {
     .company {
       font-weight: normal;
