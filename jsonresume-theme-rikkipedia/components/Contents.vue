@@ -20,9 +20,9 @@
       </a>
     </li>
       <ul>
-        <li v-if="resume.portfolio.writing">
-          <a href="#writing">
-            Writing
+        <li v-for="category of resume.portfolio">
+          <a :href="`#${category.category.toLowerCase()}`">
+            {{category.category}}
           </a>
         </li>
       </ul>
