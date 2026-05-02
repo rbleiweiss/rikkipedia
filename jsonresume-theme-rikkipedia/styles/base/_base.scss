@@ -4,9 +4,8 @@
 @use './fonts' as *;
 
 body {
-  @include inter();
-
   //background: $gray-lightest;
+  font-family: $primary-font;
   margin: 0 0 100px;
   letter-spacing: .3px;
   color: $text-color;
@@ -94,10 +93,18 @@ a {
 p,
 li {
   @include font-size(2.75);
+  line-height: $line-height;
+}
+
+ul {
+  li {
+    padding-bottom: 0.5em;
+  }
 }
 
 blockquote {
   @include font-size(2.75);
+  line-height: $line-height;
   @include inter($isItalic: true);
 
   margin: spacing(2) spacing(5);
