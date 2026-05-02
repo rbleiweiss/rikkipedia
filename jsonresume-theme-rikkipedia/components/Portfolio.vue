@@ -1,7 +1,7 @@
 <template>
   <div v-if="portfolio" id="portfolio" class="portfolio-container">
     <Title value="Samples" />
-    <div v-for="category of portfolio" :id="category.category.toLowerCase()">
+    <div v-for="category of portfolio" :id="category.category.toLowerCase()" class="category">
       <h3 class="bold">{{category.category}}</h3>
       <div v-for="item of category.items" class="item">
         <a :href="externalUrl(item)" target="_blank">{{item.title}} <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
