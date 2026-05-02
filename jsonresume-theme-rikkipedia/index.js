@@ -18,7 +18,7 @@ export async function render(resume) {
         <style>
           ${await getStyles()}
         </style>
-        <title>${resume.basics.name}</title>
+        <title>Rikkipedia</title>
       </head>
       <body>
         <div id="app">${html}</div>
