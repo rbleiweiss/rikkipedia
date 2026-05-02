@@ -3,7 +3,7 @@
     v-if="basics.summary"
     class="summary-container"
 >
-  <vue-markdown class="summary" :source="basics.summary"/>
+  <vue-markdown class="summary" :source="basics.summary" :options="{ html: true }"/>
 </div>
 </template>
 

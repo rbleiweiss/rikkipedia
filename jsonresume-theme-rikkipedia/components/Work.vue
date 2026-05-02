@@ -23,7 +23,7 @@
       </span>
     </h3>
 
-    <vue-markdown v-if="work.summary" :source="work.summary" class="summary" />
+    <vue-markdown v-if="work.summary" :source="work.summary" class="summary" :options="{ html: true }"/>
 
     <ul v-if="work.highlights && work.highlights.length > 0">
       <li v-for="highlight of work.highlights">

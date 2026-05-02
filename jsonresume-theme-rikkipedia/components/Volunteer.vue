@@ -13,7 +13,7 @@
       <SectionHeader :name="volunteer.organization"/>
       <h5 v-if="volunteer.position">{{volunteer.position}}</h5>
 
-      <vue-markdown v-if="volunteer.summary" :source="volunteer.summary" class="summary" />
+      <vue-markdown v-if="volunteer.summary" :source="volunteer.summary" class="summary" :options="{ html: true }"/>
 
       <ul v-if="volunteer.highlights && volunteer.highlights.length > 0">
         <li v-for="highlight of volunteer.highlights">

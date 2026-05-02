@@ -25,7 +25,7 @@
         <li v-for="course of edu.courses">{{course}}</li>
       </ul>
 
-      <vue-markdown v-if="edu.summary" :source="edu.summary" class="summary" />
+      <vue-markdown v-if="edu.summary" :source="edu.summary" class="summary" :options="{ html: true }"/>
     </section>
   </div>
 </template>
