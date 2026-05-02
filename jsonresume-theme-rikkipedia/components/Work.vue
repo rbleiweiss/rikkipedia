@@ -13,9 +13,8 @@
     <h3 v-if="work.position" class="bold position">
       {{work.position}}
       <span class="company">
-          [
-        <template v-if="work.url">
-          <a class="company" :href="work.url">{{work.company}}</a>,
+        [<template v-if="work.url">
+          <a class="company" :href="work.url" target="_blank">{{work.company}}</a>,
         </template>
         <template v-else>
           {{work.company}}
