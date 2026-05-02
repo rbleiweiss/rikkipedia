@@ -7,6 +7,7 @@
       <h6 v-if="url"  class="info-text">
         <a :href="url" target="_blank">
           {{removeProtocol(text)}}
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </h6>
       <h6 v-else class="info-text">{{text}}</h6>

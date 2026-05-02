@@ -135,6 +135,15 @@ blockquote {
               td {
                 padding-bottom: 0.5em;
               }
+              .info-text {
+                a {
+                  i {
+                    font-size: 0.8em;
+                    vertical-align: middle;
+                    padding-bottom: 0.2em;
+                  }
+                }
+              }
             }
             i.fab {
               width: 18px;
