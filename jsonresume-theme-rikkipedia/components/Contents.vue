@@ -51,11 +51,16 @@
         Publications
       </a>
     </li>
-      <li v-if="resume.controversies && resume.controversies.length > 0">
-        <a href="#controversies">
-          Controversies
+      <li v-if="resume.distinctions && resume.distinctions.length > 0">
+        <a href="#distinctions">
+          Distinctions
         </a>
       </li>
+    <li v-if="resume.controversies && resume.controversies.length > 0">
+      <a href="#controversies">
+        Controversies
+      </a>
+    </li>
     <li v-if="resume.references && resume.references.length > 0">
       <a href="#references">
         References

@@ -17,6 +17,7 @@
         <Education :education="resume.education"/>
         <Certificates :resume="resume"/>
         <Awards :resume="resume"/>
+        <Distinctions :resume="resume"/>
         <Publications :resume="resume"/>
         <Controversies :resume="resume"/>
         <References :resume="resume"/>
@@ -39,6 +40,7 @@ import Infobox from "./components/Infobox.vue";
 import Contents from "./components/Contents.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Controversies from "./components/Controversies.vue";
+import Distinctions from "./components/Distinctions.vue";
 const props = defineProps(['resume'])
 
 </script>

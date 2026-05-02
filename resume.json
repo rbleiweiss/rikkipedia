@@ -108,6 +108,35 @@
     }
   ],
   "awards": [],
+  "distinctions": [
+    {
+      "category": "Writing",
+      "awards": [
+        "**Disney-ABC** Screenwriting Fellowship, *Semifinalist*",
+        "**Slamdance** Screenplay Competition, *3rd Prize*",
+        "**Humanitas** College Fellowship, *Finalist*",
+        "**Screencraft** TV Pilot Competition, *Finalist*",
+        "**Script 2 Comic Contest**, *Finalist*",
+        "**Coverfly** Top 1% <sub>(Top 10 out of ~60,000 screenplays)</sub>"
+      ]
+    },
+    {
+      "category": "Filmmaking",
+      "awards": [
+        "Audience Favorite Award, **Austin 48 Hour Film Festival**",
+        "Excellence in Producing Award, by **Longhorn Creative Foundation**",
+        "Student Filmmaker Award, **Los Angeles Chapter Hollywood Seminar**",
+        "Randy Kelleher Endowed Scholarship in Film, issued by the Radio-Television-Film Department at the University of Texas"
+      ]
+    },
+    {
+      "category": "Academic",
+      "awards": [
+        "Jesse H. Jones Centennial Scholarship, issued by the University of Texas <sub>(for Academic Excellence)</sub>",
+        "Earl Campbell Endowed Presidential Scholarship, issued by the University of Texas <sub>(for Academic Excellence)</sub>"
+      ]
+    }
+  ],
   "certificates": [
     {
       "name": "Enterprise Design Thinking Practitioner",
