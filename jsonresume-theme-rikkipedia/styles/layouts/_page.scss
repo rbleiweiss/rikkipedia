@@ -76,6 +76,19 @@ blockquote {
       max-width: 100%;
     }
   }
+  .about-table {
+    border-spacing: 10px 4px;
+    border-collapse: separate;
+    font-size: 14px;
+    tr {
+      height: spacing(2);
+      &:not(:last-of-type){
+        td {
+          padding-bottom: 1em;
+        }
+      }
+    }
+  }
 }
 
 .section-header {

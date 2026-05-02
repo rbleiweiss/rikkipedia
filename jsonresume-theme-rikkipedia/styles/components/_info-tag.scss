@@ -2,20 +2,6 @@
 @use '../utils/mixins' as *;
 @use '../utils/functions' as *;
 
-.about-table {
-  border-spacing: 10px 4px;
-  border-collapse: separate;
-  margin: 10px -10px 0;
-  tr {
-    height: spacing(2);
-    td {
-      &:first-child {
-        text-align: center;
-      }
-    }
-  }
-}
-
 .info-tag {
   margin-bottom: spacing(1);
 
