@@ -10,20 +10,18 @@
       class="item"
       :class="work.company ? '' : 'continuation'"
   >
-    <div v-if="work.position" class="position">
-      <h3 class="bold">
-        {{work.position}}
-      </h3>
-      <div class="company">
+    <h3 v-if="work.position" class="position bold">
+      {{work.position}}
+      <span class="company">
         [<template v-if="work.url">
-          <a class="company" :href="work.url" target="_blank">{{work.company}}</a>,
+          <a :href="work.url" target="_blank">{{work.company}}</a>,
         </template>
         <template v-else>
-          {{work.company}},
+          {{work.company}}
         </template>
           {{dateRange(work)}}]
-      </div>
-    </div>
+      </span>
+    </h3>
 
     <vue-markdown v-if="work.summary" :source="work.summary" class="summary" :options="{ html: true }"/>
 

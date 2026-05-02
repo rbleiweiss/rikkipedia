@@ -189,15 +189,10 @@ section.item {
 
 .work-container {
   margin-top: -10px;
-
   .position {
-    display: flex;
-    align-items: center;
-    gap: 10px;
     .company {
-      @include font-size(3.5);
+      padding-left: 0.25em;
       font-weight: normal;
-      line-height: 1em;
     }
   }
 
