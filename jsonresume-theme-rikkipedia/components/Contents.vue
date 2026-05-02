@@ -1,7 +1,8 @@
 <template>
   <div id="contents">
-    Contents
-    <div class="keyline"/>
+    <div class="title">
+      Contents
+    </div>
     <ul>
     <li>
       <a href="#" class="top">

@@ -1,7 +1,6 @@
 <template>
   <div class="row header-row">
-    <h1>{{resume.basics.name}}</h1>
-    <div class="keyline"/>
+    <h1 class="title">{{resume.basics.name}}</h1>
   </div>
 </template>
 

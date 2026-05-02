@@ -1,9 +1,31 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 @use '../utils/functions' as *;
+@use '../base/fonts' as *;
 
 *[class$="-container"] {
   padding-top: spacing(6);
+}
+
+h1, h2, h3, h4, h5 {
+  &.title {
+    @include libertinus(400);
+    color: $heading-color;
+    border-bottom: 1px solid $border-color-base;
+    display: flow-root;
+  }
+}
+
+h1.title {
+  font-size: 2.2em;
+  padding-bottom: .25em;
+  vertical-align: bottom;
+}
+h3.title {
+  font-size: 1.5em;
+  padding-bottom: .25em;
+  margin-bottom: 1em;
+  vertical-align: bottom;
 }
 
 .keyline {
