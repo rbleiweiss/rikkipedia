@@ -9,13 +9,7 @@
       </template>
     </h3>
     <h5 v-if="role" class="italic pull-right">
-      <span v-if="role.date" class="date">{{formatDateMMMYYYY(role.date)}}</span>
-      <span v-if="role.startDate" class="startDate">{{formatDateYYYY(role.startDate)}}</span>
-      <span v-if="role.endDate" class="endDate"> - {{formatDateYYYY(role.endDate)}}</span>
-      <span v-else-if="role.endDate" class="endDate"> - Present</span>
-      <template v-if="!role.startDate && role.releaseDate">
-        {{formatDateYYYY(role.releaseDate)}}
-      </template>
+      <span class="date">{{dateRange(role)}}</span>
     </h5>
   </div>
 
@@ -25,13 +19,33 @@
 import moment from 'moment'
 
 const props = defineProps(['role', 'name'])
+const dateRange = function(role) {
+  if (!role) {
+    return ''
+  }
 
-const formatDateYYYY = function (date) {
-  return moment(date).format('YYYY');
-}
+  let range = ''
+  if (role.date) {
+    range += `${moment(role.date).format('MMM YYYY')}`
+    return range
+  }
 
-const formatDateMMMYYYY = function (date) {
-  return moment(date).format('MMM YYYY');
+  if (role.startDate) {
+    range += moment(role.startDate).format('YYYY')
+  }
+
+  if (role.endDate) {
+    range += role.startDate ? ' - ' : ''
+    range += moment(role.endDate).format('YYYY')
+  } else if (role.startDate) {
+    range += " - Present"
+  }
+
+  if (!role.startDate && role.releaseDate) {
+    range += moment(role.releaseDate).format('YYYY')
+  }
+
+  return range
 }
 
 </script>

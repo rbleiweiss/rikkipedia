@@ -10,9 +10,10 @@
       class="item"
       :class="work.company ? '' : 'continuation'"
   >
-    <SectionHeader :name="work.company" :role="work"/>
-
-    <h4 v-if="work.position">{{work.position}}</h4>
+    <h3 v-if="work.position" class="bold position">
+      {{work.position}}
+      <span class="company">{{`[${work.company}, ${dateRange(work)}]`}}</span>
+    </h3>
 
     <vue-markdown v-if="work.summary" :source="work.summary" class="summary" />
 
@@ -30,6 +31,37 @@
 import Title from "../partials/Title.vue";
 import SectionHeader from "../partials/SectionHeader.vue";
 import VueMarkdown from 'vue-markdown-render'
+import moment from 'moment'
 
 const props = defineProps(['resume'])
+
+const dateRange = function(role) {
+  if (!role) {
+    return ''
+  }
+
+  let range = ''
+  if (role.date) {
+    range += `${moment(role.date).format('MMM YYYY')}`
+    return range
+  }
+
+  if (role.startDate) {
+    range += moment(role.startDate).format('YYYY')
+  }
+
+  if (role.endDate) {
+    range += role.startDate ? ' - ' : ''
+    range += moment(role.endDate).format('YYYY')
+  } else if (role.startDate) {
+    range += " - Present"
+  }
+
+  if (!role.startDate && role.releaseDate) {
+    range += moment(role.releaseDate).format('YYYY')
+  }
+
+  return range
+}
+
 </script>

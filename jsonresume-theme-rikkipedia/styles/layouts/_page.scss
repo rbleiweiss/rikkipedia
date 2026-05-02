@@ -113,6 +113,12 @@ blockquote {
 }
 
 .work-container {
+  .position {
+    .company {
+      font-weight: normal;
+    }
+  }
+
   .item.continuation {
     margin-top: spacing(-4.5);
   }
