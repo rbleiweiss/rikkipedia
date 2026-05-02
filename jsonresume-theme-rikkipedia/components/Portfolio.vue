@@ -1,6 +1,8 @@
 <template>
-  <Title value="Portfolio" />
-  <Writing :writing="portfolio.writing"/>
+  <div v-if="portfolio" id="portfolio" class="portfolio-container">
+    <Title value="Samples" />
+    <Writing :writing="portfolio.writing"/>
+  </div>
 </template>
 
 <script lang="ts" setup>

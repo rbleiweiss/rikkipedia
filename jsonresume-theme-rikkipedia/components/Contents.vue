@@ -2,11 +2,19 @@
   <div id="contents">
     Contents
     <div class="keyline"/>
+    <a href="#" class="top">
+      (Top)
+    </a>
     <a
         v-if="resume.work && resume.work.length > 0"
         href="#work">
-      Career
-      History</a>
+      Career History
+    </a>
+    <a
+        v-if="resume.portfolio"
+        href="#portfolio">
+      Samples
+    </a>
     <a
         v-if="resume.volunteer && resume.volunteer.length > 0"
         href="#volunteer">

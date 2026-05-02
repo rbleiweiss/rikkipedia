@@ -14,8 +14,11 @@ blockquote {
 }
 
 #resume {
+  display: flex;
+  justify-content: center;
   .resume-content {
     padding: 20px 30px 60px;
+    max-width: 1440px;
     display: flex;
     gap: 50px;
     @media (max-width: #{$tablet-width}) {
@@ -26,6 +29,7 @@ blockquote {
 
 .logo {
   max-width: 100%;
+  margin-bottom: 30px;
 }
 
 #contents {
@@ -33,6 +37,10 @@ blockquote {
   top: 20px;
   a {
     display: block;
+    line-height: 2em;
+    &.top {
+      color: $text-color;
+    }
   }
 }
 
