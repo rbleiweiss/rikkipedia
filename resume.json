@@ -220,6 +220,13 @@
           "title": "Twitter/X Collab Post Example",
           "description": "I hunted for interesting data to pitch to Yahoo Sports for collab posts. This one gained 1.5M views.",
           "url": "https://x.com/YahooSports/status/2009274148070019257/"
+        },
+           "items": [
+        {
+          "title": "Instagram Collab Post Example",
+          "description": "An example of our popular data-driven collab content.",
+          "url": "https://www.instagram.com/p/DWuk0WuAuPu/
+/"
         }
       ]
     }
