@@ -228,6 +228,20 @@
         }
       ]
     }
+     {
+      "category": "Technical/Thought Leadership",
+      "items": [
+        {
+          "title": "How DCIM Software Simplifies Data Center Service Window Management",
+          "description": "Ghostwritten tech thought leadership content.",
+          "url": "https://x.com/YahooSports/status/2009274148070019257/"
+        },
+        {
+          "title": "Data Center Dependency Mapping: Why Understanding Infrastructure Relationships Prevents Outages",
+          "description": "Ghostwritten technical B2B SEO Content.",
+          "url": "https://www.dcimauthority.com/index.php/2025/10/10/data-center-dependency-mapping/"
+        }
+      ]
  ],
   "controversies": [
     "Pronounces “GIF” like the g in graphic and not like the j in Jif peanut butter",
